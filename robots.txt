@@ -1,0 +1,12 @@
+# robots.txt for encantic.com
+# Allow all search engine crawlers
+
+User-agent: *
+Allow: /
+
+# Block access to any admin or private pages (add as needed)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.encantic.com/sitemap.xml
